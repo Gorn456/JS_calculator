@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+}
+
+.frame {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 15px; 
+    /* max: 100px;
+    height: 80px;    */
+}
+
+.display {
+    position: sticky;
+    top: 0;
+    border: 1px solid #333;
+    text-align: right;
+    margin-bottom: 10px;
+    min-height: 21px;
+    max-height: 21px;
+    max-width: 148px;
+    overflow: hidden;
+    
+}
+
+.numbers {
+    min-height: none;
+    min-width: 30px;
+}
+
+.lower-frame {
+    float: left;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+}
